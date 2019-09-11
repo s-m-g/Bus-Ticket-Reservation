@@ -1,0 +1,52 @@
+
+.o-1
+{width:auto;
+	background-color:black;
+	color:white;
+	padding:10px;
+	left:250px;
+	top:250px;
+	border-radius:10px;
+	text-align:center;
+	position:absolute;
+
+	
+	
+}
+
+.o-1 p
+{
+	font-size:40px;
+}
+
+.o-2
+{width:auto;
+	background-color:black;
+	color:white;
+	padding:10px;
+	left:250px;
+	top:400px;
+	margin-top:10px;
+	border-radius:10px;
+	text-align:center;
+	position:absolute;
+}
+.o-2 p
+{
+	font-size:40px;
+}
+
+.o-3
+{    width:auto;
+	right:250px;
+	top:400px;
+	position:absolute;
+	background-color:black;
+	color:white;
+}
+.o-3 p
+{
+	font-size:40px;
+}
+
+

@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("bus.jpg");
+opacity: 0.8;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  margin: 70px;
+  width: auto;
+    left:180px;
+    bottom:60px;
+background-color: #ddd;
+    border-radius:50px;
+    
+    
+}
+
+.container1 {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+    right:530px;
+    bottom:10px;
+    background-color: #ddd;
+    border-radius:50px;
+   
+}
+
+.container2 {
+  position: absolute;
+  margin: 70px;
+  width: auto;
+    right:180px;
+    bottom:60px;
+background-color: #ddd;
+  
+    border-radius:50px;
+  
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.topnav a:hover {
+  background-color: #1abc9c;
+  color: black;
+    border-radius:50px;
+    }
+

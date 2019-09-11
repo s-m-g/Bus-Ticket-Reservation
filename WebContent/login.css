@@ -1,0 +1,115 @@
+body, html {
+  height: 100%;
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("bus.jpg");
+
+  /* Control the height of the image */
+  height:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity:0.8;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  top:40px;
+  left: 100px;
+  margin: 20px;
+  
+  max-width: 300px;
+  padding: 15px;
+  background-color: white;
+  border-radius:20px;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] , input[type=date]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+ select[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.5;
+  margin-top:10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.correct{
+	
+  padding: 5px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+  right:250px;
+  bottom:200px;
+  position:absolute;
+  border-radius:50px;
+}
+
+/* Increase the font size of the <h1> element */
+.correct p {
+  font-size:20px;
+}
+
+.correct1{
+	
+  padding: 5px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+  right:250px;
+  bottom:50px;
+  border-radius:50px;
+
+  position:absolute;
+}
+
+/* Increase the font size of the <h1> element */
+.correct1 p {
+  font-size:20px;
+  color:white;
+  
+}
+
