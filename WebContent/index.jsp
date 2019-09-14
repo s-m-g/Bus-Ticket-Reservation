@@ -16,6 +16,7 @@
   
 }
 
+
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
@@ -34,6 +35,13 @@ color:white;
 <div class="header">
        <a href="about.jsp"> <h1>BUS-BUS</h1></a>
         <h2><b>A  Convenient way to plan your journey</b></h2>
+        
+        	
+        	<div class="right_">
+        	
+        	<a href="admin_login.jsp">Admin Login</a>
+      
+        </div>
         </div>
     
     <div class="bg">
@@ -48,7 +56,7 @@ color:white;
             
         <div class="container">
         <div class="topnav">
-         <a href="login.jsp">Login</a>
+         <a href="login.jsp">User Login</a>
         </div>
         </div>
         
@@ -59,6 +67,8 @@ color:white;
         </div>
         </div>
         
+        
+            
         
         
         
