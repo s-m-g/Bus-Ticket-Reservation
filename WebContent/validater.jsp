@@ -29,7 +29,20 @@ while(rs.next())
 
 { 
 	
-if((rs.getString(1)).equals(pass))
+if((rs.getString(1)).equals(pass) && email.equals("admin@gmail.com"))
+{
+	i=1;
+	               session = request.getSession();
+
+	session.setAttribute("user", email);
+	//session.setMaxInactiveInterval(30); // 30 seconds
+response.sendRedirect("admin_dash.jsp");
+	//RequestDispatcher rd=request.getRequestDispatcher("welcome.jsp");
+	//rd.forward(request,response);
+	
+ 	
+}
+else if((rs.getString(1)).equals(pass))
 {
 	i=1;
 	               session = request.getSession();
